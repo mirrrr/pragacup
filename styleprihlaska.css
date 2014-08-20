@@ -14,7 +14,7 @@ h1 {
 	font-size: 100px;
 	color: #1EBE0D;
 	-webkit-text-stroke: 3px black;
-	text-shadow: 3px 3px black;
+	text-shadow: 3px 1px black, -3px -1px black;
 	position: relative;
 	top: -80px;
 	opacity: 0.8;
