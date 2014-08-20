@@ -1,0 +1,74 @@
+@import url('http://fonts.googleapis.com/css?family=Just+Me+Again+Down+Here');
+
+body {
+    overflow: hidden;
+}
+
+/*SLIDES*/
+#slideshow .img {
+    position:  fixed;
+    width:  100%;
+    top:  0;
+    left:  0;
+}
+
+/*LOGO*/
+.praga {
+	position: absolute;
+	width: 100%;
+	height: 30%;
+    text-align: center;
+	font-family: 'Arial Black';
+	font-size: 100px;
+	top: -150px;
+	opacity: 0.8;
+	line-height: 250px;
+	color: #1EBE0D;
+	-webkit-text-stroke: 3px black;
+    text-shadow: 5px 5px 20px black;
+}
+
+/*INFO*/
+.info p {
+	position: absolute;
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	border-bottom: 1px solid white;
+	top: 200px;
+	font-family: 'Just Me Again Down Here', cursive;
+	font-size: 50px;
+	color: #CF1919;
+    text-shadow:  1px 1px black;
+}
+
+/*MENU*/
+.menu {
+	position: absolute;	
+    width:  100%;
+    height: 10%;
+    top:  500px;
+    left: 0;
+    text-align: center;
+}
+.menu ul {
+    list-style-type: none;
+}
+.menu ul li {
+    display: inline-block;
+    font-family: 'Arial Black';
+    background-color:  rgba(255,255,255,0.5);
+    border-radius:  5px;
+    margin:  20px;
+    padding: 10px;
+}
+.menu ul li:last-child {
+    background-color:rgba(59,89,152,0.5);
+    color: white;
+}
+.menu ul li:hover {
+    background-color:  rgba(255,255,255,1);
+}
+.menu ul li:last-child:hover {
+    background-color:  rgba(59,89,152,1);
+}
