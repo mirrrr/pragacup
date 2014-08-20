@@ -14,6 +14,7 @@ h1 {
 	font-size: 100px;
 	color: #1EBE0D;
 	-webkit-text-stroke: 3px black;
+	text-shadow: 3px 3px black;
 	position: relative;
 	top: -80px;
 	opacity: 0.8;
@@ -34,9 +35,6 @@ p {
 	position: relative;
 	top: -170px;
 	font-family: 'Arial Black';
-	colo: #CF1919;
-	tex-shadow: 1px 1px black;
-	background: rgba(255,255,255,0.7);
 	padding: 20px;
 	padding-bottom: 30px;
 	border-radius: 5px;
@@ -44,7 +42,6 @@ p {
 .prihlaska input {
 	display: block;
 	width: 100%;
-	borde: 3px solid #CF1919;
 	border-radius: 5px;
 }
 .prihlaska .submit {
