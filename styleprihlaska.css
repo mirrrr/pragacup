@@ -1,0 +1,55 @@
+@import url('http://fonts.googleapis.com/css?family=Just+Me+Again+Down+Here');
+
+body {
+	width: 100%;
+	background: url("https://raw.githubusercontent.com/mirrrr/pragacup/master/DSC8649.jpg");
+	position: fixed;
+	overflow: hidden;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+h1 {
+	font-family: 'Arial Black';
+	text-align: center;
+	font-size: 100px;
+	color: #1EBE0D;
+	-webkit-text-stroke: 3px black;
+	position: relative;
+	top: -80px;
+	opacity: 0.8;
+}
+p {
+	position: relative;
+	top: -140px;
+	color: #CF1919;
+	font-family: 'Just Me Again Down Here', cursive;
+	text-align: center;
+	font-size: 40px;
+	font-weight: 700;
+	text-shadow: 1px 1px black;
+}
+.prihlaska {
+	width: 40%;
+	margin: 0 auto;
+	position: relative;
+	top: -170px;
+	font-family: 'Arial Black';
+	colo: #CF1919;
+	tex-shadow: 1px 1px black;
+	background: rgba(255,255,255,0.7);
+	padding: 20px;
+	padding-bottom: 30px;
+	border-radius: 5px;
+}
+.prihlaska input {
+	display: block;
+	width: 100%;
+	borde: 3px solid #CF1919;
+	border-radius: 5px;
+}
+.prihlaska .submit {
+	width: 20%;
+	float: right;
+	font-family: 'Arial Black';
+	border: 1px solid black;
+}
